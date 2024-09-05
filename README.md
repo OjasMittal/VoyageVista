@@ -1,5 +1,7 @@
 # **Voyage Vista - Travel Itinerary Generator**
 
+![voyageVista](https://github.com/user-attachments/assets/f4a80a23-5f90-411a-9248-aababb8da4f8)
+
 **Voyage Vista** is a Streamlit-based web application that allows users to generate personalized travel itineraries based on their preferences. This application leverages Google's Generative AI model to create detailed, day-by-day itineraries for a selected destination, including activities, locations, and hotel recommendations. Users can also download the itinerary in both calendar (ICS) and PDF formats.
 
 ## **Features**
