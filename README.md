@@ -125,4 +125,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## **Deployed Website**
 
-`https://voyagevista.streamlit.app/`
+[voyagevista](https://voyagevista.streamlit.app/)
