@@ -3,15 +3,15 @@ import google.generativeai as palm
 from ics import Calendar, Event
 from datetime import datetime, timedelta
 import json
-palm.configure(api_key=st.secrets["GOOGLE_API_KEY"])
-model = palm.GenerativeModel("gemini-1.5-flash")
 from reportlab.lib.pagesizes import letter
-from reportlab.lib import colors
 from reportlab.lib.styles import getSampleStyleSheet
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Table, TableStyle
+from reportlab.platypus import SimpleDocTemplate, Paragraph
 import io
 import zipfile
 from PIL import Image
+
+palm.configure(api_key=st.secrets["GOOGLE_API_KEY"])
+model = palm.GenerativeModel("gemini-1.5-flash")
 
 img = Image.open('icon.png')
 st.set_page_config(page_title="Voyage Vista",page_icon = img)
@@ -125,7 +125,7 @@ preferences = st.multiselect(
 if st.button("Generate Itinerary"):
     with st.spinner("Generating Your Itinerary..."):
       # Create a prompt based on user input
-      prompt = f"You are a travel expert. Give me an itinerary for {place}, for {days} days, assuming each day starts at 9am and ends at 8pm with a buffer of 30 minutes between each activity. I like to"
+      prompt = f"You are a travel expert. Give me an itinerary for {place}, for {days} days, assuming each day starts at 10am and ends at 8pm with a buffer of 30 minutes between each activity. I like to"
 
       # Add selected preferences to the prompt
       if "Art" in preferences:
