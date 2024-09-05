@@ -1,0 +1,11 @@
+altair==4.2.2
+annotated-types==0.7.0
+appdirs==1.4.4
+google-ai-generativelanguage==0.6.6
+ics==0.7.2
+Jinja2==3.1.4
+pillow==10.4.0
+reportlab==4.2.2
+st-annotated-text==3.0.0
+streamlit==1.10.0
+tornado==6.2
