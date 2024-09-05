@@ -20,7 +20,7 @@ st.set_page_config(page_title="Voyage Vista",page_icon = img)
 background_image = """
 <style>
 [data-testid="stAppViewContainer"] > .main {
-    background-image: url("https://img.freepik.com/free-photo/beautiful-tropical-beach-sea-with-chair-blue-sky_74190-7488.jpg?t=st=1725517691~exp=1725521291~hmac=b2d2ed60ea2e17f0ed2b3597e78e4031a943144c10ed007ef16e2c1a70ef66cb&w=996");
+    background-image: url("https://res.cloudinary.com/dgfehrdfq/image/upload/v1725541998/7489_uhmyfv.jpg");
     background-size: 100vw 100vh;
     background-position: center;
     background-repeat: no-repeat;
