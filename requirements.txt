@@ -33,7 +33,7 @@ pandas
 pillow
 pkgutil-resolve-name
 proto-plus
-protobuf
+protobuf==3.20.x
 pyarrow
 pyasn1
 pyasn1-modules
